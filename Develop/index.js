@@ -18,6 +18,11 @@
         },
         {
         type: 'input',
+        message: 'What is your email?',
+        name: 'email',
+        },
+        {
+        type: 'input',
         message: 'What is the title of this project?',
         name: 'title',
         },
@@ -44,13 +49,13 @@
         {
         type: 'input',
         message: 'Please provide test instructions:',
-        name: 'usage',
+        name: 'test',
         },
         {
         type: 'list',
         message: 'What type of license does this project use?',
         name: 'license',
-        choices: ["MIT", "Apache 2.0", "GNU v3.0", "BSD 2-Clause", "BSD 3-Clause", "Boost 1.0", "Creative Commons Zero v1.0", "Eclipse Public 2.0", "GNU Affero v3.0", "GNU Gen Pub v2.0", "GNU Lesser v2.1", "Moz Pub 2.0", "The Unilicense"],
+        choices: ["MIT", "Apache 2.0", "GNU v3.0", "BSD 2-Clause", "BSD 3-Clause", "Boost 1.0", "Creative Commons Zero v1.0", "Eclipse Public 2.0", "GNU Affero v3.0", "GNU Gen Pub v2.0", "Moz Pub 2.0", "The Unilicense", "Open"],
         },
     ];
 
@@ -66,7 +71,7 @@
 // function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-// function init() {}
+function init() {}
 
 // Function call to initialize app
 init();
