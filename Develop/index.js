@@ -47,9 +47,10 @@
         name: 'usage',
         },
         {
-        type: 'input',
+        type: 'list',
         message: 'What type of license does this project use?',
         name: 'license',
+        choices: ["MIT", "Apache 2.0", "GNU v3.0", "BSD 2-Clause", "BSD 3-Clause", "Boost 1.0", "Creative Commons Zero v1.0", "Eclipse Public 2.0", "GNU Affero v3.0", "GNU Gen Pub v2.0", "GNU Lesser v2.1", "Moz Pub 2.0", "The Unilicense"],
         },
     ];
 
@@ -59,17 +60,13 @@
             fs.writeFile("README.md", generateMarkdown({...responses}), (err) =>
             err ? console.log(err) : console.log('Success!')
             );
-    
-        console.log(data.firstName);
-        console.log(data.password);
-        console.log(data.city);
         });
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+// function init() {}
 
 // Function call to initialize app
 init();
