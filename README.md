@@ -9,7 +9,6 @@ Command-line application utilizing node.js that dynamically generates a professi
   [User Story](#user-story) <br>
   [Acceptance Criteria](#acceptance-criteria) <br>
   [Installation](#installation) <br>
-  [Usage](#usage) <br>
   [License](#license) <br>
   [Contributing](#contributing) <br>
   [Demo](#demo) <br>
@@ -58,8 +57,6 @@ npm init
 npm i inquirer
 ```
 
-## Usage
-
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
 This project is covered under the MIT license.
@@ -68,7 +65,7 @@ This project is covered under the MIT license.
 Harrison Kidd
 
 ## Demo
-Demo video:
+![GIF](Develop/video/READMEdemo.gif)
 
 ## Questions
-Contact me with any questions here: [email](mailto:harrisonakidd@gmail.com)
+Contact me with any questions here: [harrisonakidd@gmail.com](mailto:harrisonakidd@gmail.com)
