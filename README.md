@@ -1,4 +1,4 @@
-# READMEgenerator_HW9
+# READMEgenerator
 
 ## Description
 Command-line application utilizing node.js that dynamically generates a professional README file from a user's input using the Inquirer package.
